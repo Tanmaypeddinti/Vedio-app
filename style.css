@@ -1,0 +1,57 @@
+body{
+    background-size: cover ;
+}
+
+.button{
+    color: black;
+    border: white double 5px;
+    font-size: 20px;
+    background: rgb(182,255,106);
+    background: linear-gradient(90deg, rgba(182,255,106,1) 0%, rgba(76,255,25,1) 57%, rgba(26,229,4,1) 100%);
+    font-family: 'Comic Neue', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+.heading{
+font-size: 30px;
+margin-top: 10px;
+color: rgb(0, 0, 0);
+text-shadow: 2px 0px 0px rgb(255, 237, 237);
+font-family: 'Rye', cursive;
+}
+
+img{
+    height: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+#number_objects,#status{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    background: yellowgreen;
+}
+
+.copyright-footer{
+    font-family: 'Play', sans-serif;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    color: whitesmoke;
+    float: bottom;
+    background-color: rgb(5, 211, 15);
+    line-height: 3;
+}
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,400;1,700&display=swap');    
+canvas{
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(9, 255, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 255, 42, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 255, 42, 0.75);
+    border-radius: 42px 0px 67px 0px;
+    -webkit-border-radius: 42px 0px 67px 0px;
+    -moz-border-radius: 42px 0px 67px 0px;
+    border: 14px double #00ff22;
+    background-color: ivory;
+}
